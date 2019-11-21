@@ -1,5 +1,5 @@
 var express =  require('express');
-var cors = require('cors');
+var cors = require('cors'); //for different domains
 
 const app = express();
 app.use(cors());
